@@ -2,19 +2,19 @@ package Pelota;
 
 class Pelota {
     String color;
-    String tamaño;
+    String tamanio;
 
     //Constructor de los atributos de la pelota
-    public Pelota(String color, String tamaño){
+    public Pelota(String color, String tamanio){
         this.color=color;
-        this.tamaño=tamaño;
+        this.tamanio=tamanio;
     }
 
     //Mostrar detalles de la pelota
     public void mostrarDetalles(){
         System.out.println("Detalles de la pelota:");
         System.out.println("Color: " + this.color);
-        System.out.println("Tamaño: " + this.tamaño);
+        System.out.println("Tamaño: " + this.tamanio);
         System.out.println("-------------------------");
     }
 }
